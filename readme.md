@@ -10,4 +10,7 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+Run docker-compose up in your codespace's terminal to load Anythink's backend and frontend.
+Once docker-compose finishes loading up, the backend should be running and able to connect to the database.
+After the server is up, make sure you test it by pointing your browser to https://obelusfamily-anythink-market-bjeki-95g659w96g6hpqw4-3000.githubpreview.dev/api/ping
+If everything is working properly, you’ll be able to create a new user on https://obelusfamily-anythink-market-bjeki-95g659w96g6hpqw4-3001.githubpreview.dev/register
